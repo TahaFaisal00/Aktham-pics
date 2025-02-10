@@ -1,0 +1,79 @@
+/*Selector {
+	Property: value;
+}*/
+body {background-color: BLACK;
+	background-size: COVER;
+}	
+
+.all {display: flex;
+	flex-direction: column;
+	height: 1200px;
+
+}
+
+.header {display:flex ;
+	justify-content: center;
+}
+
+header {font-family: fantasy;
+font-size:300% ;
+border: 10PX solid darkmagenta ;
+width: 400px ;
+text-align:center ;
+color: white;
+cursor: pointer;
+box-shadow:2px 2px 2px 3px hotpink;
+margin:10px 0px 20px 0px;
+border-radius: 20px;
+}
+
+.pics {display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center;
+	gap: 10px;
+	max-width: 2200px;
+	margin: auto;
+	align-items:center;
+}
+
+.pic {display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+img {height:350px ; width:650px ;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+img:hover{transform: scale(1.05) rotate(360deg);
+}
+
+p {background-color:black ;
+	font-family: fantasy;
+	font-size: 2rem;
+	margin: 10px 0px 0px 0px;
+	border:solid white 5px ;
+	color: deepskyblue;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.footer{display: flex;
+justify-content: center;
+align-items:flex-end;
+
+
+
+}
+footer {background-color: darkmagenta;
+	border: white solid 1px;
+	color:white;
+	width: 10000px;
+	text-align: center;
+	font-size: 2rem;
+
+}
